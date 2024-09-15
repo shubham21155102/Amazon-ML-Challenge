@@ -10,7 +10,7 @@ def predictor(image_link, category_id, entity_name):
     return "" if random.random() > 0.5 else "10 inch"
 
 if __name__ == "__main__":
-    DATASET_FOLDER = '../dataset/'
+    DATASET_FOLDER = '/Users/shubham/Downloads/7th Sem/Amazon ML/student_resource 3/dataset'
     
     test = pd.read_csv(os.path.join(DATASET_FOLDER, 'test.csv'))
     
