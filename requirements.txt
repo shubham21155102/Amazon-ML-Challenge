@@ -1,4 +1,5 @@
 pandas
 pillow
 requests
-pil
+# pil
+keras-ocr
