@@ -48,9 +48,9 @@ def create_placeholder_image(image_save_path):
 def download_image(image_link, save_folder, retries=3, delay=3):
     if not isinstance(image_link, str):
         return
-    print(image_link)
+    # print(image_link)
     filename = Path(image_link).name
-    print(filename)
+    # print(filename)
     image_save_path = os.path.join(save_folder, filename)
 
     if os.path.exists(image_save_path):
